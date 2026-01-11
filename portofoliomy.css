@@ -179,22 +179,42 @@ nav .right img{
 
 }
 
-.hoho .project img{
-    margin-top: 40px;
-    width: 800px;
-    height: auto;
-    margin-left: 615px;
-    margin-bottom: 150px;
+.hoho .project {
+    display: flex;             
+    justify-content: center;    
+    align-items: center;        
+    margin-top: 40px;           
+}
+
+.hoho .project img {
+    width: 800px;   
+    height: auto;  
     border-radius: 15px;
     box-shadow: 0 1px 25px black;
     transition: 0.8s;
-
+    margin-bottom: 25px;
 }
 
-.hoho .project img:hover{
+.hoho .project img:hover {
     transform: scale(1.1);
-    
     box-shadow: 0 1px 45px white;
-    
+}
+
+.hoho .yapping3 {
+    text-align: center;  
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;   
+    margin-top: 20px;    
+    margin-bottom: 80px;  
+}
+
+
+.hoho .yapping3 p{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
